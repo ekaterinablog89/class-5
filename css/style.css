@@ -1,0 +1,219 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* this is CSS reset above to clear out all default browser styles*/
+
+/* ----------- page wrapper ---------------- */
+#image_background {
+	background-image: url('file:///Users/ekaterinasipovich/Documents/TSA/HTML:CSS/class%235/images/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#page_wrapper {
+    padding: 40px;
+	width: 100%;
+	height: fit-content;
+	margin: 0px auto;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+	align-items: center;
+}
+nav {
+	align-self: center;
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+.logo {
+	font-family: 'Trebuchet MS';
+	font-size: x-large;
+	color: #e4ddda;
+	align-self: center;
+	font-style: italic;
+	letter-spacing: -2px;
+}
+li {
+	font-family: 'Trebuchet MS';
+	font-size: larger;
+	color: #e4ddda;
+}
+#contact_button {
+	font-family: 'Trebuchet MS';
+	font-size: medium;
+	color: #e4ddda;
+	background-color: #11242a;
+	padding: 10px 20px;
+ 	text-align: center;
+	border-radius: 12px;
+	margin: 5px 70px;
+}
+#contact_button:hover {
+	background-color: #e4ddda;
+	color: #11242a;
+}
+/* --------------- page wrapper ------------------- */
+
+/* ----------------- main box --------------------- */
+#main_box {
+	width: 70%;
+    height: 230px;
+	margin: 60px auto;
+	background-image: url(file:///Users/ekaterinasipovich/Downloads/66.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+}
+h1 {
+	font-family: 'Trebuchet MS';
+	font-size: 70px;
+	color: #e4ddda;
+	font-weight: bolder;
+	width: 50%;
+	text-shadow: 5px 5px 5px black;
+	font-style: italic;
+	margin: 70px auto;
+}
+h2 {
+	font-family: 'Trebuchet MS';
+	font-size: 20px;
+	color: #e4ddda;
+	align-self: center;
+	padding: 20px 200px;
+	text-align: center;
+	line-height: 30px
+}
+#order_button {
+	font-family: 'Trebuchet MS';
+	font-size: large;
+	color: #e4ddda;
+	background-color: #11242a;
+	padding: 20px 35px;
+ 	text-align: center;
+	border-radius: 12px;
+	margin: 40px 600px;
+}
+#order_button:hover {
+	background-color: #e4ddda;
+	color: #11242a;
+}
+h3 {
+	font-family: 'Trebuchet MS';
+	font-size: 20px;
+	color: #e4ddda;
+	line-height: 30px;
+	align-self: center;
+	padding: 60px 200px;
+	text-align: center;
+}
+.boxes {
+	width: 300px;
+    height: 350px;
+	border-radius: 24px;
+	align-content: space-evenly;
+	background-color: #e4ddda;
+	box-shadow: 5px 10px 15px gray;
+	overflow: hidden;
+}
+.boxes img {
+	width: 300px;
+	height: 280px;
+	object-fit: cover;
+}
+container {
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+	justify-content: center;
+	align-items: center;
+}
+p1 {
+	font-family: 'Trebuchet MS';
+	font-size: large;
+	color: #11242a;
+	text-shadow: 2px 2px 5px gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* ----------------- main box --------------------- */
+
+/* ----------------- menu ---------------------*/
+#white_background {
+	background-color: #e4ddda;
+}
+h5 {
+	font-family: 'Trebuchet MS';
+	font-size: 30px;
+	color: #11242a;
+	align-self: center;
+	padding: 20px 200px;
+	text-align: center;
+	line-height: 30px
+}
+h4 {
+	font-family: 'Trebuchet MS';
+	font-size: 40px;
+	color: #11242a;
+	font-weight: bold;
+	width: 70%;
+	font-style: italic;
+	margin: 70px auto;
+}
+p4 {
+	font-family: 'Trebuchet MS';
+	font-size: 20px;
+	color: #11242a;
+	align-self: center;
+	padding: 20px 200px;
+	text-align: center;
+	line-height: 30px
+}
